@@ -1,8 +1,10 @@
 # Todolist
 
+![capture d'écran iOS](./assets/todolist.png)
+
 Exemple de client cross-platforms développé avec __Flutter__ sous forme de preuve de concept à compléter.
 
-L'application se connecte à l'__API REST__ locale développée en __Python__ avec __FastAPI__ et une base de données __PostgreSQL__.
+L'application se connecte à l'__API REST__ locale développée en __Python__ avec __FastAPI__ et une base de données __PostgreSQL__ (cf. <https://github.com/shrp777/todolist-rest-api>).
 
 Démarrer le projet Docker de l'API REST avant de démarrer l'application Flutter : $ `docker compose up`
 
@@ -28,7 +30,7 @@ Démarrer le projet Docker de l'API REST avant de démarrer l'application Flutte
 
 - Démarrage de l'application sur __Chrome__ : $ `flutter run -d chrome`
 
-![capture d'écran iOS](./ios.png)
+![capture d'écran iOS](./assets/ios.png)
 
 --
 
